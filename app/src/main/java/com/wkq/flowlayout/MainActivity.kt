@@ -6,10 +6,10 @@ import android.widget.Toast
 import com.wkq.flow.FlowLayout
 
 class MainActivity : AppCompatActivity() {
-    var lists = arrayListOf<String>("1", "拖更了1年", "拖更了1年", "拖更了1年")
-//    var lists= arrayListOf<String>("1","拖更了1年","拖更了1年","拖更了1年","拖更了1年","拖更了1年",
-//        "拖更了1年","拖更了1年","拖更了1年","拖更了1年","拖更了1年",
-//        "拖更了1年","拖更了2年","拖更了1年","666666666")
+//    var lists = arrayListOf<String>("1", "拖更了1年", "拖更了1年", "拖更了1年")
+    var lists= arrayListOf<String>("1","拖更了1年","拖更了1年","拖更了1年","拖更了1年","拖更了1年",
+        "拖更了1年","拖更了1年","拖更了1年","拖更了1年","拖更了1年",
+        "拖更了1年","拖更了2年","拖更了1年","666666666")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
