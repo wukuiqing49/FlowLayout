@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowLayoutStyle">
+        <!--        Labels的文字-->
+        <attr name="flTextColor" format="color" />
+        <!--        Labels的背景色-->
+        <attr name="flBackgroundColor" format="color" />
+        <!--        Labels的角度大小-->
+        <attr name="flAngleSize" format="float" />
+        <!--        Labels的左右 Margin-->
+        <attr name="flMarginLeftAndRight" format="integer" />
+        <!--        Labels的上下 Margin-->
+        <attr name="flMarginTopAndBottom" format="integer" />
+        <!--      Labels 内容上下padding  -->
+        <attr name="flPaddingTopAndBottom" format="integer" />
+        <!--      Labels 内容左右padding  -->
+        <attr name="flPaddingLeftAndRight" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <com.wkq.flow.FlowLayout
+       android:background="@color/teal_200"
+       android:id="@+id/fl"
+       android:layout_width="wrap_content"
+       app:flBackgroundColor="@color/purple_200"
+       app:flTextColor="@color/white"
+       app:flAngleSize="10"
+       app:flPaddingLeftAndRight="40"
+       app:flPaddingTopAndBottom="10"
+       app:flMarginLeftAndRight="40"
+       app:flMarginTopAndBottom="30"
+       android:layout_height="wrap_content"/>
+
+</RelativeLayout>
